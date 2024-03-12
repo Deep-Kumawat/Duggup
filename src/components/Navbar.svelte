@@ -14,7 +14,7 @@
     import NavbarButton from "./buttons/NavbarButton.svelte";
 	import NavbarProfileMenu from "./NavbarProfileMenu.svelte";
 </script>
-<nav class="sticky top-0 flex justify-around items-center h-16 w-full border-dashed border-b border-slate-400">
+<nav class="top-0 flex justify-around items-center h-16 w-full border-dashed border-b border-slate-400">
     <HomeLogo />
     <div class="ml-auto flex items-center">
         <!-- <Button class = "nav_button hover:bg-slate-100" ><TablerHome2 class="mr-2"/> Home</Button> -->

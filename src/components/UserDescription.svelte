@@ -4,13 +4,15 @@
     import CircumShare1 from '~icons/circum/share-1';
     import TablerDots from '~icons/tabler/dots';
     import BorderedButton from "./buttons/BorderedButton.svelte";
+
+
 </script>
 
 <!-- <div class="flex mt-16 mx-52 items-center"> -->
 <div class="flex items-center">
     <div class="w-28">
         <ProfilePhoto size={28}>
-            <!-- <img slot="image" src="https://media.licdn.com/dms/image/D4E03AQF-fLP5TtdtOQ/profile-displayphoto-shrink_800_800/0/1677089436637?e=1715212800&v=beta&t=_Cl8W3911M3gcbPqwFIeVFaLkZvzisuU5YK_BaUECSQ" alt="KK Image"> -->
+            <img slot="image" src="https://media.licdn.com/dms/image/D4E03AQF-fLP5TtdtOQ/profile-displayphoto-shrink_800_800/0/1677089436637?e=1715212800&v=beta&t=_Cl8W3911M3gcbPqwFIeVFaLkZvzisuU5YK_BaUECSQ" alt="KK Image">
         </ProfilePhoto>
         <div class="text-gray-600 font-semibold text-2xl text-center">
             Krishna Kiran
@@ -46,8 +48,12 @@
                 <BorderedButton text={"Follow"}/>
             </div>
             <div class="flex font-normal items-center">
-                My website <CircumShare1 class="mr-4"/> <TablerDots class="ml-auto"/>
+                My website <CircumShare1 class="mr-4 ml-1"/> <TablerDots class="ml-auto scale-150"/>
             </div>
         </div>
     </div>
 </div>
+
+    
+<!-- <p class="overflow-ellipsis overflow-hidden w-96 p-4 bg-yellow-200 text-md">
+    Fred is inquisitive and creative, and always conjuring up ways to improve Binaryville. He's twice been awarded the highly coveted BinaryvilleMedallionOfHonorAndExcellentAward</p> -->

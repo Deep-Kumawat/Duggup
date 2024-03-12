@@ -1,5 +1,5 @@
 <script lang="ts">
-    import PostCard from "./cards/PostCard.svelte";
+    import PostCard from "./cards/Postcard.svelte";
 </script>
 <div class="flex relative mt-0.5">
     <div class="ml-14 border border-gray-400 border-dashed mr-14">
