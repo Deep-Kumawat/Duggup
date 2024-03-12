@@ -48,15 +48,7 @@
   }
 } 
 
- 
-/* @layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-} */
+
 
 @layer components{
     .debug {
@@ -66,15 +58,4 @@
 
 body{
     background-color: #f6f6f9;
-}
-.nav_button {
-  color: #272c3a;
-  box-shadow: none;
-  border: none;
-  margin: 4px;
-}
-
-.nav_button:hover {
-    /* background-color: #f1f5f9; */
-    background-color: #000;
 }

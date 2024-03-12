@@ -1,6 +1,5 @@
 <script>
 	import IconamoonArrowUp2 from '~icons/iconamoon/arrow-up-2';
-	// import IoIosArrowUp from 'svelte-icons/io/IoIosArrowUp.svelte'
 	export let companyName;
 	export let location;
 	export let status;
@@ -31,8 +30,7 @@
 	<div class="absolute scale-150 text-gray-400 -mr-[3.05rem] flex justify-center top-0 object-cover w-4 h-4 ">
 		<!-- THE ARROW -->
 		<div class="scale-150">
-
-			<ion-icon name="chevron-up-outline" class=""></ion-icon>
+			<IconamoonArrowUp2 />
 		</div>
 	</div>	
 	<div
