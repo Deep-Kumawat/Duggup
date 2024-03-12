@@ -9,7 +9,7 @@
 </script>
 <div class="flex mt-0.5">
         <!-- <div class="absoulte -left-4 text-right debug items-center flex justify-center text-xs text-gray-400"> -->
-    <div class="absoulte -ml-27 mr-10 text-right text-xs text-gray-400 flex items-center">
+    <div class="absoulte -ml-[6.75rem] mr-10 text-right text-xs text-gray-400 flex items-center">
         <!-- Date should be a prop -->
         <div class="items-right">
             <div class="flex justify-end py-2">
@@ -38,7 +38,6 @@
     <div class="border border-gray-400 border-dashed mr-14">
         <!-- THE LINE -->
     </div>
-    <!-- <div class="absolute my-18 text-xs text-gray-400 debug -ml-8"> -->
     <div class="w-full">
         <CareerInfoCard designation="Co-Founder and CEO" workHours="Full-time Remote"/>        
     </div>

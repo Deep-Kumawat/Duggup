@@ -2,7 +2,7 @@
 	export let text: string;
 </script>
 
-<div class="h-64 overflow-hidden rounded-lg bg-white font-normal text-gray-600">
+<div class="max-w-96 h-64 overflow-hidden rounded-lg bg-white font-normal text-gray-600">
 	<div class="flex h-3/5 items-center justify-center overflow-hidden">
 		<div class="object-cover">
 			<slot name="image" />

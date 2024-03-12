@@ -14,10 +14,6 @@ const config = {
 			}
 		},
 		
-		// margin:{
-		// 	DEFAULT: '0px',
-			
-		// },
 		extend: {
 			colors: {
 				border: "hsl(var(--border) / <alpha-value>)",
@@ -63,20 +59,6 @@ const config = {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans]
-			},
-			spacing: {
-				'13': '3.058rem',
-				'18': '4.45rem',
-				'26': '6.5rem',
-				'27': '6.75rem',
-				'38': '9.5rem',
-				'42': '10.5rem',
-				'45': '11.25rem',
-				'200': '200.0px'
-			},
-			borderWidth: {
-				'1': '1px',
-				'3':'3px',
 			},
 		}
 	},

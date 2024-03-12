@@ -10,7 +10,7 @@
 
 
 
-<div class="relative -ml-27 mr-10 flex items-center justify-end text-right text-xs text-gray-400">
+<div class="relative -ml-[6.75rem] mr-10 flex items-center justify-end text-right text-xs text-gray-400">
 	<!-- Date should be a prop -->
 	<div class="flex flex-col">
 		<div class="flex justify-end py-2">
@@ -30,7 +30,6 @@
 	</div>
 	<div class="absolute scale-150 text-gray-400 -mr-[3.05rem] flex justify-center top-0 object-cover w-4 h-4 ">
 		<!-- THE ARROW -->
-		<!-- <IoIosArrowUp /> -->
 		<div class="scale-150">
 
 			<ion-icon name="chevron-up-outline" class=""></ion-icon>
