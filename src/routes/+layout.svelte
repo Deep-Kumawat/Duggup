@@ -23,7 +23,6 @@
 					<img
 						slot="image"
 						src="https://media.licdn.com/dms/image/D4E03AQF-fLP5TtdtOQ/profile-displayphoto-shrink_800_800/0/1677089436637?e=1715212800&v=beta&t=_Cl8W3911M3gcbPqwFIeVFaLkZvzisuU5YK_BaUECSQ"
-						alt="KK Image"
 					/>
 				</ProfilePhoto>
 				<div class="text-center text-2xl font-semibold text-gray-600">

@@ -1,10 +1,14 @@
 <script>
+	import IconamoonArrowUp2 from '~icons/iconamoon/arrow-up-2';
+	// import IoIosArrowUp from 'svelte-icons/io/IoIosArrowUp.svelte'
 	export let companyName;
 	export let location;
 	export let status;
 	export let month;
 	export let year;
 </script>
+
+
 
 <div class="relative -ml-27 mr-10 flex items-center justify-end text-right text-xs text-gray-400">
 	<!-- Date should be a prop -->
@@ -24,8 +28,16 @@
 		<br />
 		{`${month} ${year}`}
 	</div>
+	<div class="absolute scale-150 text-gray-400 -mr-[3.05rem] flex justify-center top-0 object-cover w-4 h-4 ">
+		<!-- THE ARROW -->
+		<!-- <IoIosArrowUp /> -->
+		<div class="scale-150">
+
+			<ion-icon name="chevron-up-outline" class=""></ion-icon>
+		</div>
+	</div>	
 	<div
-		class="absolute -mr-[3.07rem] flex h-4 w-4 items-center rounded-full bg-white outline outline-8 outline-blue-500"
+		class="absolute -mr-[3.05rem] flex h-4 w-4 items-center rounded-full bg-white outline outline-8 outline-blue-500"
 	/>
 </div>
 
