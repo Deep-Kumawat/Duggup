@@ -6,7 +6,6 @@
 	import CareerInfoCard from '../components/cards/CareerInfoCard.svelte';
 	import DuggupLogoIcon from '../components/logos/DuggupLogoIcon.svelte';
 	import response from './response.json';
-	import ProfilePhoto from '../components/ProfilePhoto.svelte';
 	import CircumShare1 from '~icons/circum/share-1';
 	import TablerDots from '~icons/tabler/dots';
 	import BorderedButton from '../components/buttons/BorderedButton.svelte';
